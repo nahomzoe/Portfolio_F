@@ -116,6 +116,8 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
 }
 
 .box {
