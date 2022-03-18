@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;900&family=PT+Sans+Caption&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,100&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nahom portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2><a href="#">Nahom G.Asfaw</a></h2>
+      </div>
+      <nav class="tool-bar">
+        <button id="mobileButton">
+          <span class="material-icons humburger-menu">menu</span>
+        </button>
+        <ul class="menu-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#aboutMe">About me</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero"><h1>Catch a glimpse of Me</h1></div>
+      <section id="project">
+        <h2 class="second-title">Projects</h2>
+        <div class="project-cards">
+          <div class="box card1">
+            <img src="a.jpg" class="img-card" />
+            <h3 class="text-project">project</h3>
+            <h3 class="italic-text">abc,abc,abc</h3>
+            <a href="" class="see-more">See more</a>
+          </div>
+          <div class="box card2">
+            <img src="b.jpg" class="img-card" />
+            <h3 class="text-project">project</h3>
+            <h3 class="italic-text">abc,abc,abc</h3>
+            <a href="" class="see-more">See more</a>
+          </div>
+          <div class="box card3">
+            <img src="c.jpg" class="img-card" />
+            <h3 class="text-project">project</h3>
+            <h3 class="italic-text">abc,abc,abc</h3>
+            <a href="" class="see-more">See more</a>
+          </div>
+        </div>
+      </section>
+      <section id="aboutMe">
+        <h2 class="second-title">About me</h2>
+        <img src="d.jpg" class="img-aboutme" />
+        <p class="paragraph-aboutme">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error maxime
+          similique odit debitis, enim cum. Obcaecati minus recusandae quo cum
+          tempora ab neque, eum totam nulla at animi inventore ea odit tenetur
+          accusantium! Pariatur, eaque impedit nulla delectus modi nostrum ab
+          aliquid minima ipsum commodi voluptates voluptatibus ratione
+          consequatur, maxime nobis in doloribus iure ex illum assumenda magnam
+          laborum sunt!
+        </p>
+      </section>
+      <section id="skill">
+        <h2 class="second-title">Skills</h2>
+        <div class="skillMain">
+          <div class="skill">
+            <div class="skill-bar skillb"><h5>SKILL</h5></div>
+            <div class="skill-bar html"><h5>HTML</h5></div>
+            <div class="skill-bar css"><h5>CSS</h5></div>
+            <div class="skill-bar javascript"><h5>js</h5></div>
+            <div class="skill-bar react"><h5>React</h5></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h2 class="second-title" id="contact">Contact me</h2>
+      </div>
+
+      <form>
+        <div class="form-field">
+          <label id="name">Your name</label>
+          <input type="text" class="name" />
+        </div>
+        <div class="form-field">
+          <label id="email" class="lable">Your email</label>
+          <input type="email" class="email" />
+        </div>
+        <div class="form-field">
+          <label id="message" class="lable"
+            >Message <span id="dash">-</span></label
+          >
+          <textarea class="message lable" name="message"></textarea>
+        </div>
+      </form>
+
+      <input type="submit" class="button" value="SEND" />
+      <br />
+      <p class="copy-right">Copoyrights &copy 2022</p>
+
+      <button id="returnToTop">
+        Top<span class="material-icons">arrow_upward</span>
+      </button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
