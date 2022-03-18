@@ -182,8 +182,9 @@ h3 {
 }
 #skill {
   background-color: rgb(255, 255, 255);
-  height: 30vh;
+  height: 40vh;
   width: auto;
+  padding-bottom: 2rem;
 }
 .skillMain {
   display: flex;
@@ -291,7 +292,8 @@ footer {
   background-color: orange;
   position: absolute;
   top: 80%;
-  left: 48%;
+  left: 33%;
+  cursor: pointer;
 }
 
 .copy-right {
@@ -373,7 +375,7 @@ footer {
   }
 
   nav.tool-bar ul {
-    background: transparent;
+    background-color: gainsboro;
     position: absolute;
     left: 0;
     top: 85px;
