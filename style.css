@@ -239,7 +239,7 @@ footer {
   max-height: 50vh;
   margin: auto;
   padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 
@@ -286,20 +286,22 @@ footer {
 }
 
 .button {
+  margin-top: 0.5rem;
   padding: 12px 80px 12px 80px;
   border-radius: 10px;
   border: 1px solid orange;
   background-color: orange;
   position: absolute;
   top: 80%;
-  left: 33%;
+  left: 43%;
   cursor: pointer;
 }
 
 .copy-right {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
+  padding-left: 2rem;
 }
 
 #returnToTop {
